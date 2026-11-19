@@ -1,0 +1,12 @@
+article {
+  margin-top: 16px;
+  padding: 16px 20px;
+  background-color: var(--bg-page);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+/* Override default h3 for article headings */
+article h3 {
+  margin-top: 0;
+}

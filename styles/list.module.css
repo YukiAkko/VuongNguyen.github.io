@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+ul li {
+  background-color: var(--primary-light);
+  color: var(--primary);
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #bfdbfe;
+  transition: all 0.2s ease;
+}
+
+ul li:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+  transform: translateY(-2px);
+}

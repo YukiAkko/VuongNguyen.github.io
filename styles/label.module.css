@@ -1,0 +1,6 @@
+label {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--text-main);
+}

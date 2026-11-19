@@ -1,0 +1,14 @@
+.section {
+  background-color: var(--bg-card);
+  margin: 24px 0;
+  padding: 28px 32px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  scroll-margin-top: 80px;
+}
+
+.section:hover {
+  box-shadow: var(--shadow-md);
+}

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("./styles/h1.module.css");
+@import url("./styles/nav.module.css");
+@import url("./styles/link-button.module.css");
+@import url("./styles/section.module.css");
+@import url("./styles/text-input.module.css");
+@import url("./styles/form.module.css");
+@import url("./styles/h2.module.css");
+@import url("./styles/submit-button.module.css");
+@import url("./styles/list.module.css");
+@import url("./styles/avatar.module.css");
+@import url("./styles/h3.module.css");
+@import url("./styles/h2.module.css");
+@import url("./styles/label.module.css");
+@import url("./styles/table.module.css");
+
+:root {
+  --font-family: "Be Vietnam Pro", sans-serif;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #eff6ff;
+  --bg-page: #f8fafc;
+  --bg-card: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+  --radius-lg: 20px;
+  --radius-md: 12px;
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 10px 25px rgba(15, 23, 42, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 48px 20px 40px;
+}
+
+header h2 {
+  margin: 8px 0;
+  font-weight: 600;
+  color: #e0f2fe;
+}
+
+header p {
+  margin: 8px 0 0;
+  color: #dbeafe;
+  font-size: 1.05rem;
+}
+
+main {
+  max-width: 850px;
+  margin: 24px auto;
+  padding: 0 20px;
+}
+
+/* Chân trang */
+footer {
+  text-align: center;
+  padding: 28px 20px;
+  margin-top: 40px;
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 4px 0;
+}
+

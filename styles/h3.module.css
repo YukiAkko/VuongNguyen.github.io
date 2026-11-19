@@ -1,0 +1,8 @@
+h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--text-main);
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
